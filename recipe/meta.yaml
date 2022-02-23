@@ -64,7 +64,6 @@ about:
     PyPI: [https://pypi.org/project/docarray](https://pypi.org/project/docarray)
 
   doc_url: https://docarray.jina.ai/
-  dev_url: https://github.com/jina-ai/docarray
 
 extra:
   recipe-maintainers:
