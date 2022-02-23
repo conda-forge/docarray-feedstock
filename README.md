@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/docarray-feedst
 
 Summary: The data structure for unstructured data
 
-Development: https://github.com/jina-ai/docarray
+Development: https://github.com/jina-ai/docarray/
 
 Documentation: https://docarray.jina.ai/
 
@@ -142,5 +142,8 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@JoanFM](https://github.com/JoanFM/)
+* [@hanxiao](https://github.com/hanxiao/)
+* [@nan-wang](https://github.com/nan-wang/)
 * [@sugatoray](https://github.com/sugatoray/)
 
