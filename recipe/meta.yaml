@@ -23,7 +23,7 @@ requirements:
     - wheel
   run:
     - python >=3.6
-    - numpy    
+    - numpy
     - rich
 
 test:
