@@ -1,5 +1,5 @@
 {% set name = "docarray" %}
-{% set version = "0.13.32" %}
+{% set version = "0.13.33" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/docarray-{{ version }}.tar.gz
-  sha256: a64fd6e337d324142391a1eb6c50433005e741dd761eefd54fc54b6dec6eba01
+  sha256: e295af562c9e37f304b9a9d6eb4084f102ec3af178a3f30f111ae7dfd8ac9b82
 
 build:
   number: 0
