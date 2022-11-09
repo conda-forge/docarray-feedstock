@@ -36,9 +36,9 @@ test:
     - pip
 
 about:
-  home: https://github.com/jina-ai/docarray
+  home: https://github.com/docarray/docarray
   summary: The data structure for unstructured data
-  dev_url: https://github.com/jina-ai/docarray/
+  dev_url: https://github.com/docarray/docarray/
   license: Apache-2.0
   license_file: LICENSE
   description: |
