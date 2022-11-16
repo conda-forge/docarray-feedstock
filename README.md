@@ -1,7 +1,7 @@
 About docarray
 ==============
 
-Home: https://github.com/jina-ai/docarray
+Home: https://github.com/docarray/docarray
 
 Package license: Apache-2.0
 
@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/docarray-feedst
 
 Summary: The data structure for unstructured data
 
-Development: https://github.com/jina-ai/docarray/
+Development: https://github.com/docarray/docarray/
 
 Documentation: https://docarray.jina.ai/
 
