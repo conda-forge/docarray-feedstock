@@ -70,6 +70,7 @@ about:
 extra:
   recipe-maintainers:
     - sugatoray
+    - basnijholt
     # Maintainers from package (upstream) repository
     - hanxiao
     - nan-wang
