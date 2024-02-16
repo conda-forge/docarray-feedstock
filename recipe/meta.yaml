@@ -21,6 +21,7 @@ requirements:
     - python >=3.8
     - poetry-core
   run:
+    - python >=3.8
     - numpy >=1.17.3
     - orjson >=3.8.2
     - pydantic >=1.10.8
@@ -31,7 +32,6 @@ requirements:
 test:
   imports:
     - docarray
-    - docarray.array
   commands:
     - pip check
   requires:
@@ -65,7 +65,7 @@ about:
 
     PyPI: [https://pypi.org/project/docarray](https://pypi.org/project/docarray)
 
-  doc_url: https://docarray.jina.ai/
+  doc_url: https://docs.docarray.org/
 
 extra:
   recipe-maintainers:
