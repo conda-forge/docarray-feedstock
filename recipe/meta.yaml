@@ -1,5 +1,5 @@
 {% set name = "docarray" %}
-{% set version = "0.16.5" %}
+{% set version = "0.40.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/docarray-{{ version }}.tar.gz
-  sha256: 3fa826dd85aea4223a710e9cfd860e72409c3d06497d982e63874973e8cab14e
+  sha256: c3f3b88b7b6128c10308dddbd21650c9845e270da850cf6718cb1d3d867d5986
 
 build:
   number: 0
@@ -18,13 +18,15 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
-    - setuptools >=18.0
-    - wheel
+    - python >=3.8
+    - poetry-core
   run:
-    - python >=3.6
-    - numpy
-    - rich
+    - numpy >=1.17.3
+    - orjson >=3.8.2
+    - pydantic >=1.10.8
+    - rich >=13.1.0
+    - types-requests >=2.28.11.6
+    - typing-inspect >=0.8.0
 
 test:
   imports:
