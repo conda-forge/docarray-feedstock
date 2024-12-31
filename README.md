@@ -1,17 +1,17 @@
-About docarray
-==============
-
-Home: https://github.com/jina-ai/docarray
-
-Package license: Apache-2.0
+About docarray-feedstock
+========================
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/docarray-feedstock/blob/main/LICENSE.txt)
 
+Home: https://github.com/docarray/docarray
+
+Package license: Apache-2.0
+
 Summary: The data structure for unstructured data
 
-Development: https://github.com/jina-ai/docarray/
+Development: https://github.com/docarray/docarray/
 
-Documentation: https://docarray.jina.ai/
+Documentation: https://docs.docarray.org/
 
 DocArray is a library for nested, unstructured data such as text, image,
 audio, video, 3D mesh. It allows deep learning engineers to efficiently
@@ -121,7 +121,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
@@ -170,6 +170,7 @@ Feedstock Maintainers
 =====================
 
 * [@JoanFM](https://github.com/JoanFM/)
+* [@basnijholt](https://github.com/basnijholt/)
 * [@hanxiao](https://github.com/hanxiao/)
 * [@nan-wang](https://github.com/nan-wang/)
 * [@sugatoray](https://github.com/sugatoray/)

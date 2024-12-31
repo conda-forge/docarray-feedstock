@@ -7,21 +7,21 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/docarray-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/docarray-{{ version }}.tar.gz
   sha256: c3f3b88b7b6128c10308dddbd21650c9845e270da850cf6718cb1d3d867d5986
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python {{ python_min }}
     - poetry-core
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - numpy >=1.17.3
     - orjson >=3.8.2
     - pydantic >=1.10.8
@@ -36,6 +36,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/docarray/docarray
